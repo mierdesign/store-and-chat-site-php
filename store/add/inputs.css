@@ -1,0 +1,97 @@
+body {
+width: 90%;
+max-height: 90%;
+background: #EFEFEF;
+}
+.addform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}
+.addform input, .addform label {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 25rem;
+  height: 25vh;
+  border: 1px solid #6C16F6;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  color: #000000;
+  background: #EFEFEF;
+  text-align: center;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+.addform .name {
+  height: 10vh;
+}
+input[type="file"]{
+display: none;
+}
+input[type="submit"]{
+    padding-right: 0px;
+    padding-left: 0px;
+    height: 10%;
+}
+#uploadFile {
+    display: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.custom-file-upload {
+  width: 25rem;
+  height: 25%;
+  padding-top: 5px;
+}
+.inputstyle {
+  position: absolute;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 25rem;
+  height: 25vh;
+  border: 1px solid #6C16F6;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  color: #000000;
+  background: #EFEFEF;
+  text-align: center;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);    
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.button {
+  display: inline-block;
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 15rem;
+  border: 1px solid #6C16F6;
+  -webkit-border-radius: 6px;
+  border-radius: 6px;
+  color: #000000;
+  text-align: center;
+  -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+  -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
