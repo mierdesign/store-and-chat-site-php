@@ -6,7 +6,7 @@
 ***
 just a chat app combined with a upload form so you can chat with sellers
 ### Screenshot
-![screenshot](https://pasteboard.co/A8rAHURk2jkl.png)
+![screenshot](https://ufile.io/n7t9a22s)
 ## Technologies
 ***
 A list of technologies used within the project:
@@ -18,6 +18,6 @@ A list of technologies used within the project:
 A little intro about the installation. 
 ```
 $ clone this project
-$ upload sql file in phpmyadmin
+$ upload sql-database.sql file in phpmyadmin
 $ change the credentials from the database_connection.php page
 ```
